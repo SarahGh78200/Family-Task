@@ -27,3 +27,9 @@ h1 {
 .bgg {
 	background-color: #e8e8f2;
 }
+.nav-link{
+	background-color: pink;
+	border-radius: 10px;
+	
+}	
+
