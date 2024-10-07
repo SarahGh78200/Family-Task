@@ -29,22 +29,22 @@
                         if ($_SESSION['user']['idRole'] == 1) {
                     ?>
                             <li class="nav-item">
-                                <a class="nav-link" href="/addTask"><strong>Créer tâche</strong></a>
+                                <a class="nav-link" href="/addTask">Créer tâche</a>
                             </li>
                         <?php
                         }
                         ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="/logout"><strong>Déconnexion</strong></a>
+                            <a class="nav-link" href="/logout">Déconnexion</a>
                         </li>
                     <?php
                     } else {
                     ?>
                         <li class="nav-item">
-                            <a class="nav-link" href="/register"><strong>Inscription</strong></a>
+                            <a class="nav-link" href="/register">Inscription</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/login"><strong>Connexion</strong></a>
+                            <a class="nav-link" href="/login">Connexion</a>
                         </li>
                     <?php } ?>
                 </ul>
